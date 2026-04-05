@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicio Técnico Gómez ofrece reparación y mantenimiento de lavadoras, neveras, estufas, hornos y secadoras en Bogotá. Atención a domicilio, más de 10 años de experiencia y trabajo garantizado.">
+  <meta name="keywords" content="servicio técnico lavadoras Bogotá, reparación neveras Bogotá, técnico estufas Bogotá, reparación hornos gas Bogotá, reparación secadoras Bogotá, mantenimiento electrodomésticos Bogotá">
+  <title>Servicio Técnico Gómez | Reparación de Lavadoras, Neveras y Estufas en Bogotá</title>
+
+  <meta property="og:title" content="Servicio Técnico Gómez | Reparación de Electrodomésticos en Bogotá">
+  <meta property="og:description" content="Reparación y mantenimiento de lavadoras, neveras, estufas, hornos y secadoras. Atención a domicilio en Bogotá con más de 10 años de experiencia y trabajo garantizado.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Barlow:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__logo">
+        <img src="assets/logo-stg.png" alt="STG" class="nav__logo-img" onerror="this.style.display='none'">
+        <span class="nav__logo-text">Servicio Técnico <strong>Gómez</strong></span>
+      </a>
+      <nav class="nav__links" id="navLinks" role="navigation" aria-label="Menú principal">
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#nosotros" class="nav__link">Nosotros</a>
+        <a href="#marcas" class="nav__link">Marcas</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+        <a href="https://wa.me/573238404402?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Servicio%20T%C3%A9cnico%20G%C3%B3mez%20y%20necesito%20revisi%C3%B3n%20para%20mi%20electrodom%C3%A9stico." class="btn btn--wa btn--sm" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.121 1.524 5.857L0 24l6.345-1.504A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.016-1.376l-.36-.213-3.728.883.901-3.632-.235-.373A9.818 9.818 0 1112 21.818z"/></svg>
+          WhatsApp
+        </a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Bogotá &mdash; Servicio a domicilio</p>
+      <h1 class="hero__title">Servicio técnico de lavadoras, neveras, estufas, hornos y secadoras en Bogotá</h1>
+      <p class="hero__subtitle">Atención a domicilio con más de 10 años de experiencia, servicio responsable y trabajo garantizado.</p>
+      <div class="hero__actions">
+        <a href="https://wa.me/573238404402?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Servicio%20T%C3%A9cnico%20G%C3%B3mez%20y%20necesito%20revisi%C3%B3n%20para%20mi%20electrodom%C3%A9stico." class="btn btn--wa btn--lg" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.121 1.524 5.857L0 24l6.345-1.504A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.016-1.376l-.36-.213-3.728.883.901-3.632-.235-.373A9.818 9.818 0 1112 21.818z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <a href="tel:+573238404402" class="btn btn--outline btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Llamar ahora
+        </a>
+      </div>
+      <p class="hero__support">Servicio técnico para el hogar, con atención directa del técnico, cita previa y cobertura en toda Bogotá.</p>
+    </div>
+  </section>
+
+  <!-- ========== TRUST BAR ========== -->
+  <div class="trust">
+    <div class="container trust__inner">
+      <div class="trust__item">
+        <svg class="trust__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>Más de 10 años de experiencia</span>
+      </div>
+      <div class="trust__sep" aria-hidden="true"></div>
+      <div class="trust__item">
+        <svg class="trust__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Servicio a domicilio en Bogotá</span>
+      </div>
+      <div class="trust__sep" aria-hidden="true"></div>
+      <div class="trust__item">
+        <svg class="trust__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>Atención directa con el técnico</span>
+      </div>
+      <div class="trust__sep" aria-hidden="true"></div>
+      <div class="trust__item">
+        <svg class="trust__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Trabajo garantizado</span>
+      </div>
+      <div class="trust__sep" aria-hidden="true"></div>
+      <div class="trust__item">
+        <svg class="trust__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span>Cita previa por WhatsApp</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="section section--dark" id="servicios">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Servicios especializados</h2>
+        <p class="section__desc">Ofrecemos diagnóstico, reparación y mantenimiento de electrodomésticos para el hogar, con atención profesional y soluciones duraderas.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="13" r="4"/><line x1="7" y1="6" x2="7" y2="7"/><line x1="10" y1="6" x2="17" y2="6"/></svg>
+          </div>
+          <h3 class="service-card__title">Lavadoras</h3>
+          <p class="service-card__text">Reparación, mantenimiento y diagnóstico de fallas en equipos residenciales.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="4" y1="10" x2="20" y2="10"/><line x1="9" y1="6" x2="15" y2="6"/><circle cx="12" cy="15" r="2"/></svg>
+          </div>
+          <h3 class="service-card__title">Neveras</h3>
+          <p class="service-card__text">Revisión técnica, mantenimiento y solución de problemas de funcionamiento.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="14" rx="2"/><line x1="2" y1="12" x2="22" y2="12"/><circle cx="7" cy="9" r="1.2"/><circle cx="12" cy="9" r="1.2"/><circle cx="17" cy="9" r="1.2"/><rect x="8" y="14" width="8" height="4" rx="1"/></svg>
+          </div>
+          <h3 class="service-card__title">Estufas</h3>
+          <p class="service-card__text">Atención para estufas de uso residencial con revisión técnica y reparación.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><rect x="6" y="8" width="12" height="8" rx="1"/><line x1="6" y1="4" x2="6" y2="7"/><line x1="18" y1="4" x2="18" y2="7"/></svg>
+          </div>
+          <h3 class="service-card__title">Hornos a gas y eléctricos</h3>
+          <p class="service-card__text">Servicio técnico para revisión, mantenimiento y reparación.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="13" r="4"/><path d="M12 9V7"/><line x1="7" y1="6" x2="9" y2="6"/></svg>
+          </div>
+          <h3 class="service-card__title">Secadoras a gas y eléctricas</h3>
+          <p class="service-card__text">Diagnóstico y reparación de fallas en secadoras residenciales.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="service-card__title">Mantenimiento preventivo</h3>
+          <p class="service-card__text">Revisión general para prevenir daños y mejorar el funcionamiento del equipo.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3 class="service-card__title">Diagnóstico técnico</h3>
+          <p class="service-card__text">Evaluación del problema para identificar la falla y definir la mejor solución.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/><path d="M15.54 8.46a5 5 0 010 7.07M8.46 8.46a5 5 0 000 7.07"/></svg>
+          </div>
+          <h3 class="service-card__title">Cambio de repuestos</h3>
+          <p class="service-card__text">Instalación y reemplazo de repuestos según la necesidad del equipo.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section class="section" id="nosotros">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__photo-wrap">
+          <img src="assets/gerardo.jpg" alt="Gerardo Gómez, técnico especialista en electrodomésticos" class="about__photo" loading="lazy">
+        </div>
+        <div class="about__content">
+          <p class="section__label">Nosotros</p>
+          <h2 class="section__title">Más de 10 años de experiencia</h2>
+          <p class="about__text">En Servicio Técnico Gómez brindamos atención profesional y responsable en la reparación y mantenimiento de electrodomésticos para el hogar.</p>
+          <p class="about__text">Trabajamos con compromiso, puntualidad y honestidad, ofreciendo soluciones duraderas en cada servicio.</p>
+          <p class="about__text">La atención es directa con el técnico, con servicio a domicilio, cita previa y trabajo garantizado.</p>
+          <div class="about__badges">
+            <span class="badge">+10 años de experiencia</span>
+            <span class="badge">Servicio a domicilio</span>
+            <span class="badge">Trabajo garantizado</span>
+            <span class="badge">Atención directa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIFERENCIALES ========== -->
+  <section class="section section--surface" id="diferenciales">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">¿Por qué elegirnos?</h2>
+      </div>
+      <div class="diferentials__grid">
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p>Atención a domicilio en toda Bogotá</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <p>Más de 10 años de experiencia</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <p>Atención directa con el técnico</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <p>Servicio responsable y garantizado</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <p>Diagnóstico técnico profesional</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          <p>Manejo de repuestos</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          <p>Puntualidad y atención honesta</p>
+        </div>
+        <div class="diferential">
+          <svg class="diferential__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <p>Servicio con cita previa</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARCAS ========== -->
+  <section class="section section--dark" id="marcas">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Atendemos marcas reconocidas</h2>
+        <p class="section__desc">Trabajamos con equipos de marcas reconocidas en el mercado, ofreciendo atención técnica para uso residencial.</p>
+      </div>
+      <div class="brands__grid">
+        <div class="brand-item">Haceb</div>
+        <div class="brand-item">Challenger</div>
+        <div class="brand-item">Samsung</div>
+        <div class="brand-item">LG</div>
+        <div class="brand-item">Whirlpool</div>
+        <div class="brand-item">Centrales</div>
+        <div class="brand-item">Mabe</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Preguntas frecuentes</h2>
+      </div>
+      <div class="faq__list" role="list">
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿Atienden en toda Bogotá?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, ofrecemos servicio técnico a domicilio en toda Bogotá.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿El servicio es a domicilio?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, la atención se realiza a domicilio.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿Trabajan con cita previa?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, el servicio se agenda previamente por WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿Atienden equipos a gas y eléctricos?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, trabajamos con equipos a gas y eléctricos según el tipo de electrodoméstico.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿El servicio tiene garantía?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, ofrecemos trabajo garantizado.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿El diagnóstico tiene costo?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí. El diagnóstico tiene un costo de <strong>$30.000</strong> si no se realiza el servicio.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿Manejan repuestos?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Sí, según el caso y la necesidad del equipo.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false">
+            ¿Cómo solicito una revisión?
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Debes escribir por WhatsApp para agendar tu atención con el técnico.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA FINAL ========== -->
+  <section class="cta-final">
+    <div class="container cta-final__inner">
+      <h2 class="cta-final__title">¿Tu electrodoméstico presenta fallas?</h2>
+      <p class="cta-final__text">Escríbenos por WhatsApp y agenda tu servicio técnico con atención responsable, a domicilio y trabajo garantizado en Bogotá.</p>
+      <a href="https://wa.me/573238404402?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Servicio%20T%C3%A9cnico%20G%C3%B3mez%20y%20necesito%20revisi%C3%B3n%20para%20mi%20electrodom%C3%A9stico." class="btn btn--wa btn--xl" target="_blank" rel="noopener noreferrer">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.121 1.524 5.857L0 24l6.345-1.504A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.016-1.376l-.36-.213-3.728.883.901-3.632-.235-.373A9.818 9.818 0 1112 21.818z"/></svg>
+        Escribir por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="section section--dark" id="contacto">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Contacto</h2>
+      </div>
+      <div class="contact__card">
+        <div class="contact__info">
+          <div class="contact__row">
+            <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <div>
+              <p class="contact__label">Empresa</p>
+              <p class="contact__value">Servicio Técnico Gómez</p>
+            </div>
+          </div>
+          <div class="contact__row">
+            <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <p class="contact__label">Cobertura</p>
+              <p class="contact__value">Bogotá</p>
+            </div>
+          </div>
+          <div class="contact__row">
+            <svg class="contact__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.121 1.524 5.857L0 24l6.345-1.504A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.016-1.376l-.36-.213-3.728.883.901-3.632-.235-.373A9.818 9.818 0 1112 21.818z"/></svg>
+            <div>
+              <p class="contact__label">WhatsApp</p>
+              <a href="https://wa.me/573238404402?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Servicio%20T%C3%A9cnico%20G%C3%B3mez%20y%20necesito%20revisi%C3%B3n%20para%20mi%20electrodom%C3%A9stico." class="contact__value contact__value--link" target="_blank" rel="noopener noreferrer">323 840 4402</a>
+            </div>
+          </div>
+          <div class="contact__row">
+            <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <p class="contact__label">Horario</p>
+              <p class="contact__value">Lunes a sábado</p>
+              <p class="contact__note">Disponibilidad sujeta a confirmación por WhatsApp</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__cta">
+          <p class="contact__cta-text">Agenda tu servicio técnico escribiendo por WhatsApp. Atención a domicilio en Bogotá.</p>
+          <a href="https://wa.me/573238404402?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Servicio%20T%C3%A9cnico%20G%C3%B3mez%20y%20necesito%20revisi%C3%B3n%20para%20mi%20electrodom%C3%A9stico." class="btn btn--wa btn--lg" target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.121 1.524 5.857L0 24l6.345-1.504A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.016-1.376l-.36-.213-3.728.883.901-3.632-.235-.373A9.818 9.818 0 1112 21.818z"/></svg>
+            Escribir por WhatsApp
+          </a>
+          <a href="tel:+573238404402" class="btn btn--outline btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Llamar ahora
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo-stg.png" alt="STG" class="footer__logo" onerror="this.style.display='none'">
+        <span>Servicio Técnico Gómez</span>
+      </div>
+      <p class="footer__copy">Bogotá &mdash; Atención a domicilio &mdash; Lunes a sábado</p>
+      <p class="footer__copy footer__copy--small">&copy; 2025 Servicio Técnico Gómez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOTANTE ========== -->
+  <a href="https://wa.me/573238404402?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Servicio%20T%C3%A9cnico%20G%C3%B3mez%20y%20necesito%20revisi%C3%B3n%20para%20mi%20electrodom%C3%A9stico." class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.121 1.524 5.857L0 24l6.345-1.504A11.951 11.951 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.016-1.376l-.36-.213-3.728.883.901-3.632-.235-.373A9.818 9.818 0 1112 21.818z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
