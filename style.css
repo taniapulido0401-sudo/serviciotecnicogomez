@@ -1,5 +1,5 @@
 /* ===================================================
-   SERVICIO TÉCNICO GÓMEZ — style.css
+   SERVICIO TÃ‰CNICO GÃ“MEZ â€” style.css
    =================================================== */
 
 /* ---- Variables ---- */
@@ -265,7 +265,7 @@ ul { list-style: none; }
   padding-left: 14px;
   border-left: 2px solid var(--accent);
 }
-/* Botón outline dentro del hero (fondo oscuro) */
+/* BotÃ³n outline dentro del hero (fondo oscuro) */
 .hero .btn--outline {
   color: #ffffff;
   border-color: rgba(255,255,255,0.45);
@@ -318,7 +318,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   SECTIONS — base
+   SECTIONS â€” base
    =================================================== */
 .section {
   padding-block: 96px;
@@ -744,7 +744,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   RESPONSIVE — Tablet (max 1024px)
+   RESPONSIVE â€” Tablet (max 1024px)
    =================================================== */
 @media (max-width: 1024px) {
   .services__grid       { grid-template-columns: repeat(2, 1fr); }
@@ -753,7 +753,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   RESPONSIVE — Mobile (max 768px)
+   RESPONSIVE â€” Mobile (max 768px)
    =================================================== */
 @media (max-width: 768px) {
 
@@ -838,7 +838,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   RESPONSIVE — Small mobile (max 480px)
+   RESPONSIVE â€” Small mobile (max 480px)
    =================================================== */
 @media (max-width: 480px) {
   .services__grid     { grid-template-columns: 1fr; }
